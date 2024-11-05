@@ -1,13 +1,17 @@
 
-import './App.css';
+import React from "react";
 import Nav from './assets/Nav';
+import Hero from './assets/Hero';
 
 function App() {
- 
+  return ( 
+    <div>
+     <Nav/>
+     <Hero/>
 
-  return (
-   <Nav/>
+
+    </div>
   )
 }
 
-export default App
+export default App;
