@@ -1,12 +1,12 @@
 .nav-bar{
-    margin: 20px 170px;
+    margin: 10px 100px;
     display: flex;
     align-items: center;
     justify-content: space-between; 
 }
 .nav-logo img{
-    width: 200px;
-    height: 70px;
+    width: auto;
+    height: 50px;
 }
 .nav-menu{
     display: flex;
@@ -19,7 +19,9 @@
     padding: 10px 20px;
     border-radius: 50px;
     /* background: linear-gradient(267deg, #FFA07A 0.36%, #FF4500 102.06%); */
-    background: linear-gradient(267deg, #FFC0CB 0.36%, #FF69B4 50%, #FF1493 102.06%);
+    background: linear-gradient(267deg, #000000 0.36%, #7F7F7F 50%, #FFFFFF 102.06%);
+
+
 
 
 
