@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className='hero'>
       <img src={hero_women} alt="" />
-      <h1><span>"Where <br/> Style<br/> Meets <br/>Comfort"</span></h1>
+      <h1 className='h1-text'><span>"Where <br/> Style<br/> Meets <br/>Comfort"</span></h1>
       <h6>The Fashion Shop 2025</h6>
     </div>
   );

@@ -15,20 +15,31 @@
     border: none;
 }
 
-.hero h1{
-    position: absolute; /* Allows the h1 to overlay on the image */
+.hero h1 {
+    position: absolute;
     right: 55%;
     top: 30%;
-    transform: translate(-50%, -50%); /* Center the h1 horizontally and vertically */
+    transform: translate(-50%, -50%);
     font-size: 80px;
     font-weight: 600;
-    color: whitesmoke; /* Optional, add contrast if needed */
+    color: whitesmoke; /* Initial color */
+    transition: color 0.3s ease; /* Smooth transition for color */
 }
+
+.hero h1:hover {
+    color: black; /* Change to any color you like on hover */
+}
+
 .hero h6{
     position: absolute; /* Allows the h1 to overlay on the image */
     right: 80%;
     top: 70%;
     transform: translate(-50%, -50%);
     color: whitesmoke;
+    transition: color 0.3s ease;
 }
+.hero h6:hover {
+    color: black; /* Change to any color you like on hover */
+}
+
 

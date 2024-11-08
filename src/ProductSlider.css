@@ -1,0 +1,52 @@
+/* CSS File */
+
+.arrow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.productSliderM {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.productSlider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 80px;
+}
+
+.slider-img {
+    width: 180px;
+    height: 300px;
+}
+
+.productSlider h6, .productSlider p {
+    margin: 10px;
+    text-align: center;
+}
+
+/* Center the arrows vertically and position them on the left and right sides of the slider */
+.arrow-container .fa-arrow-left,
+.arrow-container .fa-arrow-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: black;
+    font-size: 24px;
+}
+
+.fa-arrow-left {
+    left: 10px; /* Adjust left position */
+}
+
+.fa-arrow-right {
+    right: 10px; /* Adjust right position */
+}
